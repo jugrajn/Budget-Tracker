@@ -33,7 +33,7 @@
   * Online
   ![](onlinescreen.PNG)
 
-  ![Deployed Link](https://shielded-retreat-55393.herokuapp.com)
+  [Deployed Link](https://shielded-retreat-55393.herokuapp.com)
 
 
   ## License
