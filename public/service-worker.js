@@ -4,8 +4,8 @@ const FILES_TO_CACHE = [
     "index.js",
     "/db.js",
     "public/styles.css",
-    "public/icons/icon-192x192.png",
-    "public/icons/icon-512x512.png",
+    // "public/icons/icon-192x192.png",
+    // "public/icons/icon-512x512.png",
     "/manifest.webmanifest",
   ];
   
