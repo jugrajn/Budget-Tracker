@@ -4,8 +4,6 @@ const FILES_TO_CACHE = [
     "index.js",
     "/db.js",
     "public/styles.css",
-    // "public/icons/icon-192x192.png",
-    // "public/icons/icon-512x512.png",
     "/manifest.webmanifest",
   ];
   
@@ -67,7 +65,7 @@ const FILES_TO_CACHE = [
     }
   
     // if the request is not for the API, serve static assets using "offline-first" approach.
-    // see https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook#cache-falling-back-to-network
+ 
     evt.respondWith(
       caches.match(evt.request).then(function(response) {
         return response || fetch(evt.request);
